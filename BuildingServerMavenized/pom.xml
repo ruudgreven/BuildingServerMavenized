@@ -69,7 +69,7 @@
 				<configuration>
 					<webResources>
 						<resource>
-							<directory>WebContent</directory>
+							<directory>src/main/webapp</directory>
 						</resource>
 					</webResources>
 				</configuration>
