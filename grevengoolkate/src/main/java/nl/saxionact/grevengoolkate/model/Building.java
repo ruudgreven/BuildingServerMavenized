@@ -14,6 +14,8 @@ public class Building {
 	private String zip;
 	private String country;
 
+	//Blalala
+	
 	@XmlAttribute
 	public int getId() {
 		return id;
