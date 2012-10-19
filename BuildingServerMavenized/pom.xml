@@ -43,13 +43,13 @@
 	
 	<scm>
 		<connection>
-			scm:git:git://github.com/SaxionACT/GrevenGoolkate.git
+			scm:git:git://github.com/ruudgreven/BuildingServerMavenized.git
 		</connection>
 		<developerConnection>
-			scm:git:ssh://git@github.com/SaxionACT/GrevenGoolkate.git
+			scm:git:ssh://git@github.com/ruudgreven/BuildingServerMavenized.git
 		</developerConnection>
 		<url>
-			https://github.com/SaxionACT/GrevenGoolkate.git
+			https://github.com/ruudgreven/BuildingServerMavenized.git
 		</url>
 	</scm>
 
