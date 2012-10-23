@@ -10,7 +10,7 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
 - Open Eclipse Market Place (Help -> Eclipse Market Eclipse)
 - Find plugins "eGit" and "Maven Integration For Eclipse" and install them.
 - Open Preferences -> Maven -> Discovery -> "Open Catalog" and choose to install the m2e-egit connector.
-- Set JAVA_HOME environmental variable (on Mac or Linux add the line "export JAVA_HOME=\`/usr/libexec/java_home\`" to .profile, additionally for mac run the following command in a terminal "defaults write $HOME/.MacOSX/environment JAVA_HOME \"/Library/Java/Home\"". For Windows check http://www.robertsindall.co.uk/blog/setting-java-home-variable-in-windows/ )
+- Set JAVA_HOME environmental variable (on Mac or Linux add the line "export JAVA_HOME=\`/usr/libexec/java_home\`" to .profile, additionally for mac run the following command in a terminal "defaults write $HOME/.MacOSX/environment JAVA_HOME "/Library/Java/Home"". For Windows check http://www.robertsindall.co.uk/blog/setting-java-home-variable-in-windows/ )
 - Restart Eclipse
 
 
