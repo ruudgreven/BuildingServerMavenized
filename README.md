@@ -1,4 +1,6 @@
 # Prerequisites 
+This project is meant to run under Java 7 and Tomcat 7. Please make sure you have these installed.
+
 You need to have GIT installed on your local system (with SSH key support). Check https://help.github.com/articles/generating-ssh-keys
 
 You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno).
@@ -8,7 +10,7 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
 - Open Eclipse Market Place (Help -> Eclipse Market Eclipse)
 - Find plugins "eGit" and "Maven Integration For Eclipse" and install them.
 - Open Preferences -> Maven -> Discovery -> "Open Catalog" and choose to install the m2e-egit connector.
-- Set JAVA_HOME environmental variable (on Mac add the line "export JAVA_HOME=`/usr/libexec/java_home`" to .profile, for Windows check http://www.robertsindall.co.uk/blog/setting-java-home-variable-in-windows/ )
+- Set JAVA_HOME environmental variable (on Mac add the line "export JAVA_HOME=\`/usr/libexec/java_home\`" to .profile, for Windows check http://www.robertsindall.co.uk/blog/setting-java-home-variable-in-windows/ )
 - Restart Eclipse
 
 
