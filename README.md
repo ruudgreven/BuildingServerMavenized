@@ -7,21 +7,23 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
 
 
 # Add Eclipse plugins
+- Start Eclipse, just choose a workspace (I suggest an empty one)
 - Open Eclipse Market Place (Help -> Eclipse Market Eclipse)
 - Find the following plugins and install them:
--- eGit
--- Maven Integration For Eclipse
--- Checkstyle Plug-in
--- FindBugs Eclipse Plugin
+    - eGit
+    - Maven Integration For Eclipse
+    - Checkstyle Plug-in
+    - FindBugs Eclipse Plugin
 - Open Preferences -> Maven -> Discovery -> "Open Catalog" and choose to install the following:
--- m2e-egit connector
--- Checkstyle M2E
--- Android Connector
+    - m2e-egit connector
+    - Checkstyle M2E
+    - (when you also want to developer for Android: Android Connector)
 - Set JAVA_HOME environmental variable (on Mac or Linux add the line "export JAVA_HOME=\`/usr/libexec/java_home\`" to .profile, additionally for mac run the following command in a terminal "defaults write $HOME/.MacOSX/environment JAVA_HOME "/Library/Java/Home"". For Windows check http://www.robertsindall.co.uk/blog/setting-java-home-variable-in-windows/ )
 - Restart Eclipse
 
 
 # Load the project
+- Start with a new workspace
 - Go to the "Git Repository Exploring" perspective.
 - Choose "Clone a Git repository and add the clone to this view" (One of the small buttons on top of the Git repositories view).
 - Add the SSH path to your Git repository (e.g. git@github.com:ruudgreven/BuildingServerMavenized.git )
