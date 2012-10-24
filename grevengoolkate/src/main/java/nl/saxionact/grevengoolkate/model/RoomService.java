@@ -10,7 +10,7 @@ public class RoomService {
 	private Map<Integer, Building> buildingDB;
 	private AtomicInteger idCounter;
 
-	private static RoomService instance;
+	private volatile static RoomService instance;
 
 	public static RoomService getInstance() {
 		if (instance == null) {
