@@ -11,7 +11,7 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
 - Open Eclipse Market Place (Help -> Eclipse Market Eclipse)
 - Find the following plugins and install them:
     - eGit
-    - Maven Integration For Eclipse
+    - Maven Integration For Eclipse WTP (Incubation)
     - Checkstyle Plug-in
     - FindBugs Eclipse Plugin
 - Open Preferences -> Maven -> Discovery -> "Open Catalog" and choose to install the following:
