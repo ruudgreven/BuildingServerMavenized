@@ -16,7 +16,6 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
     - FindBugs Eclipse Plugin
 - Open Preferences -> Maven -> Discovery -> "Open Catalog" and choose to install the following:
     - m2e-egit connector
-    - Checkstyle M2E
     - (when you also want to developer for Android: Android Connector)
 - Set JAVA_HOME environmental variable (on Mac or Linux add the line "export JAVA_HOME=\`/usr/libexec/java_home\`" to .profile, additionally for mac run the following command in a terminal "defaults write $HOME/.MacOSX/environment JAVA_HOME "/Library/Java/Home"". For Windows check http://www.robertsindall.co.uk/blog/setting-java-home-variable-in-windows/ )
 - Restart Eclipse
@@ -33,6 +32,8 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
 - Choose Team -> Share Project
 - Choose Git, click next and finish.
 - Right click on project -> Choose Run As -> Maven install to prepare and build your project.
+
+As you can see checkstyle is already configured, you just need to add a link to tomcat and the project should run like a charm!
 
 # Run the project
 - Just run the project in the same way as always, just click the run button, choose run on server.
