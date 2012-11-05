@@ -4,6 +4,11 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+/**
+ * This class represents a building
+ * @author ruud
+ *
+ */
 @XmlRootElement(name = "building")
 public class Building {
 	private int id;
