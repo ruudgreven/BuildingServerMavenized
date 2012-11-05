@@ -1,7 +1,7 @@
 # Prerequisites 
 This project is meant to run under Java 7 and Tomcat 7. Please make sure you have these installed.
 
-You need to have GIT installed on your local system (with SSH key support). Check https://help.github.com/articles/generating-ssh-keys
+You need to have GIT installed on your local system.
 
 You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno).
 
@@ -25,7 +25,7 @@ You also need to have Eclipse JEE installed (We tested it with Eclipse JEE Juno)
 - Start with a new workspace
 - Go to the "Git Repository Exploring" perspective.
 - Choose "Clone a Git repository and add the clone to this view" (One of the small buttons on top of the Git repositories view).
-- Add the SSH path to your Git repository (e.g. git@github.com:ruudgreven/BuildingServerMavenized.git )
+- Add the HTTPS path from your Git repository (e.g. https://github.com/ruudgreven/BuildingServerMavenized.git )
 - Click next, your project should be found, then finish
 - Right click on the imported repository and choose "Import Maven Project". Select the project and click Finish. This takes some time.
 - Switch back to the Java EE Perspective.
