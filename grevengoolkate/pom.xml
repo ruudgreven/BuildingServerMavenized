@@ -176,6 +176,6 @@
 	<properties>
 		<jackson.version>1.9.2</jackson.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<test.property>hans</test.property>
+		<test.property>henk</test.property>
 	</properties>
 </project>
