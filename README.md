@@ -49,3 +49,4 @@ As you can see checkstyle is already configured, you just need to add a link to 
 - Right click on project -> Run As -> Maven install
 - Under target you find your builded project. (The war file does not contain the external libraries default, it assumes the server contains them).
 
+test
